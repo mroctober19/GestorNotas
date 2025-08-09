@@ -1,0 +1,37 @@
+INICIO
+// Inicializar la variable opcion 
+
+    opcion = 0  
+
+    // Bucle infinito hasta que el usuario elija salir (opciones para este avance: 6)
+
+    MIENTRAS VERDADERO HACER
+        IMPRIMIR "**** GESTOR DE NOTAS ACADÉMICAS ****"
+        IMPRIMIR "1. Registrar Nuevo Curso y Nota"
+        IMPRIMIR "2. Mostrar Todas Las Notas"
+        IMPRIMIR "3. Calcular Promedio"
+        IMPRIMIR "4. Contar Curso Aprobados/Reprobados"
+        IMPRIMIR "5. Buscar Curso Por Nombre"
+        IMPRIMIR "6. Salir"
+        LEER opcion
+
+        SI opcion == 1 ENTONCES
+            <registrar curso>
+        SINO SI opcion == 2 ENTONCES
+            <mostrar notas>
+        SINO SI opcion == 3 ENTONCES
+            <calcular promedio>
+        SINO SI opcion == 4 ENTONCES
+            <contar aprobados/reprobados>
+        SINO SI opcion == 5 ENTONCES
+            <buscar curso>
+        SINO SI opcion == 6 ENTONCES
+            IMPRIMIR "Saliendo del programa... ¡Hasta pronto!"
+            FIN  // Terminar ejecución del programa
+        SINO
+            IMPRIMIR "Error: Opción inválida, Por Favor Intente con 1-6."
+        FIN_SI
+
+    FIN_MIENTRAS
+
+FIN
