@@ -1,0 +1,65 @@
+// EN EL PSEUDOCODIGO DEL MENU EN EL AVANCE 01, SE PRESENTABAN LAS SIGUIENTES OPCIONES
+// 1. REGISTRAR NOTA
+// 3. CALCULAR PROMEDIO 
+// EN BASE A ESTO EN ESTE AVANCE 02 SE DESARROLLARÁ UN PSEUDOCODIGO QUE PERMITA EL REGISTRO DE VARIAS NOTAS Y EL CALCULO DEL PROMEDIO
+
+PROCEDIMIENTO mostrarTitulo()
+// PRE: * 
+// POST: muestra el titulo del gestor de notas al usuario
+    IMPRIMIR "**** GESTOR DE NOTAS ACADÉMICAS ****"
+FIN_PROCEDIMIENTO
+
+FUNCION promedioDeNotas(sumaDeNotas, cantidadDeNotas) 
+// PRE: cada nota ingresada debe estar en el rango [0,100] y la cantidadDeNotas > 0
+// POST: retorna el promedio calculado de las notas ingresadas 
+    RETORNAR sumaDeNotas / cantidadDeNotas 
+FIN_FUNCION 
+
+INICIO 
+	// Declaracion de Variables a usasr en el bloque principal
+    	DEFINIR cantidadDeNotas COMO ENTERO
+    	DEFINIR nota COMO REAL
+    	DEFINIR sumaDeNotas COMO REAL 
+    	DEFINIR promedioIndividual COMO REAL
+    	DEFINIR i COMO ENTERO 
+	
+    	mostrarTitulo()
+	
+	// Pedirle al usuario que ingrese la cantidad de notas que va a registrar
+   	IMPRIMIR "Ingrese la cantidad de notas que desea ingresar"
+ 	LEER cantidadDeNotas
+	
+	// Inicializar variables de conteo
+	sumaDeNotas <- 0
+	i <- 0
+	
+	// Bucle para que el usuario ingrese todas las notas que desee	
+	MIENTRAS i < cantidadDeNotas HACER
+		IMPRIMIR "ingrese la nota No. " i + 1
+		LEER nota
+
+		//Validar que las entradas no esten vacias
+		MIENTRAS nota = "" HACER
+			IMPRIMIR "La nota no puede estar vacía, por favor intente nuevamente"
+			LEER nota
+		FIN_MIENTRAS
+
+  		// Validar que la nota ingresada si o si sea numérica
+     		MIENTRAS nota != NUMERO HACER
+        		IMPRIMIR "La nota solamente puede ser un nunmero, por favor intente nuevamente"
+         		LEER nota
+     		FIN_MIENTRAS
+
+		// Validar que la nota ingresada este dentro del rango de [0,100]
+		MIENTRAS nota < 0 o nota > 100 HACER
+			IMPRIMIR "Nota Fuera Del Rango [0,100] Por Favor Intente Nuevamente"
+			LEER nota
+		FIN_MIENTRAS
+		i <- i + 1
+		sumaDeNotas <- sumaDeNotas + nota
+	FIN_MIENTRAS
+	
+	// Calculo del promedio individual e impresion del resultado
+	promedioIndividual <- promedioDeNotas(sumaDeNotas, cantidadDeNotas) 
+	IMPRIMIR "El promedio es de " promedioIndividual
+FIN
