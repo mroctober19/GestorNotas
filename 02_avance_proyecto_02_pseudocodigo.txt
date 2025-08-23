@@ -15,15 +15,17 @@ FUNCION promedioDeNotas(sumaDeNotas, cantidadDeNotas)
     RETORNAR sumaDeNotas / cantidadDeNotas 
 FIN_FUNCION 
 
+// Algoritmo principal de ingreso de notas y calculo de promedio
+
 INICIO 
 	// Declaracion de Variables a usasr en el bloque principal
-    	DEFINIR cantidadDeNotas COMO ENTERO
-    	DEFINIR nota COMO REAL
-    	DEFINIR sumaDeNotas COMO REAL 
-    	DEFINIR promedioIndividual COMO REAL
-    	DEFINIR i COMO ENTERO 
+    DEFINIR cantidadDeNotas COMO ENTERO
+    DEFINIR nota COMO REAL
+    DEFINIR sumaDeNotas COMO REAL 
+    DEFINIR promedioIndividual COMO REAL
+    DEFINIR i COMO ENTERO 
 	
-    	mostrarTitulo()
+    mostrarTitulo()
 	
 	// Pedirle al usuario que ingrese la cantidad de notas que va a registrar
    	IMPRIMIR "Ingrese la cantidad de notas que desea ingresar"
@@ -63,3 +65,4 @@ INICIO
 	promedioIndividual <- promedioDeNotas(sumaDeNotas, cantidadDeNotas) 
 	IMPRIMIR "El promedio es de " promedioIndividual
 FIN
+
