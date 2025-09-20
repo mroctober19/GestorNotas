@@ -1,6 +1,5 @@
-# Título del proyecto
 
-Gestor de Notas Académicas
+# Gestor de Notas Académicas
 
 Redacción del problema: El Gestor de Notas Académicas es un sistema en consola diseñado para que estudiantes de cualquier nivel puedan registrar, organizar y analizar sus calificaciones de forma sencilla y eficiente. El objetivo principal del gestor es proporcionar una herramienta clara y sin distracciones o interfaces confusas que permita al estudiante visualizar su rendimiento académico en cualquier momento.
 
@@ -59,6 +58,7 @@ Para el avance 3 se llevó del pseudocodigo al codigo, por medio del lenguaje py
 ## AVANCE 4
 
 En este avance se implementaron nuevamente 3 opciones, siendo las de eliminar curso, ordenar por nombre, ordenar por nota. Para ello se implementaron busquedas lineales y bucles anidados para poder satisfacer la accion requerida
+
 
 
 
