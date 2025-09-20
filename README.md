@@ -53,11 +53,12 @@ Durante este avance 02 se siguió usando la logica del pseudocodigo, implementan
 
 ## AVANCE 3
 
-Para el avance 3 se llevó del pseudocodigo al codigo, por medio del lenguaje python. Se desarrollaron en este avance 3 opciones mas siendo las de buscar cusros, contar aprobados y reprobados y editar notas de cursos, lo que ya permitira la correcta implementacion de 6 funcionalidades clave para el gestor de notas
+Para el avance 3 se llevó del pseudocodigo al codigo, por medio del lenguaje python. Se desarrollaron en este avance 3 opciones mas siendo el conteo de cursos aprobados y reprobados, búsqueda lineal de cursos por nombre, y actualización de notas existentes para los cursos. Esto permite que los datos se sigan almacenando en las listas son curso y nota y no pierda la estructura
 
 ## AVANCE 4
 
-En este avance se implementaron nuevamente 3 opciones, siendo las de eliminar curso, ordenar por nombre, ordenar por nota. Para ello se implementaron busquedas lineales y bucles anidados para poder satisfacer la accion requerida
+En este avance se implementaron nuevamente 3 opciones, siendo eliminación segura de registros con confirmación del usuario, y dos métodos de ordenamiento (por nota y por nombre) utilizando el algoritmo built-in sorted con funciones lambda como key. Con lo cual se incrementa el total de operaciones disponibles para los usuarios a 9 
+
 
 
 
