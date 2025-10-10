@@ -145,22 +145,42 @@ print()
     
         
 # OPCION NO.8    
-# se crea una funcion que ordene los curos en base a su nota
+# se crea una funcion que ordene los curos en base a su nota utilizando el algoritmo de ordnamiento de burbuja
 def ordenar_por_nota():
-    notas
+    n = len(notas)
+    cambio = True
+    
+    # el bucle while continua mientras se resten realizando intercambios
+    while cambio:
+        cambio = False
+        for i in range(n - 1):
+            if notas[i][1] > notas[i + 1][1]:
+                #se realiza el interbamcio entre notas
+                notas[i], notas[i + 1] = notas[i + 1], notas[i]
+                
+                cambio = True
+        n -=1
     print()
-    print("CURSOS ORDENADOS POR NOTA: ")
-    print(sorted(notas, key=lambda nota: nota[1]))
-    print()
+    print("Lista ordenada por notas: ", notas)
+    print()  
+    return notas
+
     
 # OPCION NO.9
-# se crea una funcion que ordena los cursos en base a su nombre
+# se crea una funcion que ordena los cursos en base a su nombre utilizando el algoritmo de ordenamiento por insercion
 def ordenar_por_nombre():
-    notas
+    n = len(notas)
+    for i in range(1, n):
+        clave = notas[i]
+        j = i -1
+        while j >= 0 and notas[j][0] > clave[0]:
+            notas[j + 1] = notas[j]
+            j = j -1
+        notas[j + 1] = clave
     print()
-    print("CURSOS ORDENADOS POR NOMBRE: ")
-    print(sorted(notas, key=lambda nombre: nombre[0]))
+    print("La lista ordenada por nombre: ", notas)
     print()
+                    
                                 
     
 # * * * * * * * * * CODIFO PRINCIPAL * * * * * * * *
@@ -211,3 +231,4 @@ while True:
     else:
         print("OPCION INVALIDA, POR FAVOR INTENTE DE NUEVO CON LAS OPCIONES DEL 1 AL 10")
         print()
+
