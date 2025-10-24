@@ -1,4 +1,4 @@
-# AVANCE NO.5 DEL GESTOR DE NOTAS ACADEMICAS
+# CODIGO FINALIZADO Y FUNCIONAL 
  
 # se crea un procedimiento para mostrar el titulo del proyecto
 def mostrarTitulo():
