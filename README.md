@@ -5,7 +5,7 @@ Redacción del problema: El Gestor de Notas Académicas es un sistema en consola
 
 El aspecto que diferencia al gestor de métodos manuales como el lápiz y papel, o de soluciones más complejas como hojas de cálculo, es que este sistema no requiere conocimientos técnicos ni configuraciones previas, tampoco la descarga de programas pesados. Todo funciona desde un menú interactivo, funcionando totalmente en un entorno ligero que no necesita internet ni programas externos lo cual puede ser de gran utilidad y valor para quienes no lo tengan disponibles.
 
-El gestor cubre necesidades clave como el registro ordenado de asignaturas, el cálculo de promedios, el conteo de cursos aprobados y reprobados, y la búsqueda y ordenamiento de información lo que le facilita al estudiante la toma de decisiones en cuanto a su desempeño académico. Esto permite que el estudiante dedique menos tiempo a organizar sus notas y pueda enfocarse de mejor manera en aumentar su desempeño dentro de las aulas.
+El gestor cubre necesidades clave como el registro ordenado de asignaturas, el cálculo de promedios, el conteo de cursos aprobados y reprobados, y la búsqueda y ordenamiento de información lo que le facilita al estudiante la toma de decisiones en cuanto a su desempeño académico. Esto permite que el estudiante dedique menos tiempo a organizar sus notas y pueda enfocarse de mejor manera en aumentar su desempeño dentro de las aulas
 
 ---
 
@@ -82,6 +82,7 @@ Lo más desafiante fue implementar el historial de cambios y la cola de revisió
 ## ¿Qué mejoraría si tuviera más tiempo?
 
 Si tuviera más tiempo, mejoraría el formato general del código y del menú. Puliría los textos, títulos y mensajes que se muestran al usuario para hacerlos más claros y consistentes. También intentaría prever más escenarios y posibles errores que podrían ocurrir con ciertos tipos de entrada del usuario. Finalmente, me gustaría experimentar con una versión mejorada del sistema que incluya una interfaz gráfica simple, para hacerlo más visual y amigable sin perder la simplicidad que lo caracteriza.
+
 
 
 
