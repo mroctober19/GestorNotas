@@ -59,7 +59,18 @@ Para el avance 3 se llevó del pseudocodigo al codigo, por medio del lenguaje py
 
 En este avance se implementaron nuevamente 3 opciones, siendo eliminación segura de registros con confirmación del usuario, y dos métodos de ordenamiento (por nota y por nombre) utilizando el algoritmo built-in sorted con funciones lambda como key. Con lo cual se incrementa el total de operaciones disponibles para los usuarios a 9 
 
-### Reflexión
+## AVANCE 5
+Durante este avance se completaron las últimas funcionalidades del sistema, alcanzando un total de once opciones dentro del menú principal.
+Se añadieron las características de cola de revisión (para simular solicitudes de revisión de cursos mediante una estructura FIFO) y el historial de cambios (implementado como una pila LIFO que registra las actualizaciones y eliminaciones realizadas)
+
+## AVANCE 6 
+En este último avance, el código fue pulido, documentado y estructurado en su versión final.
+Se añadieron comentarios explicativos en cada función, se mejoró la legibilidad general
+
+El proyecto quedó totalmente funcional y estable, con todas las operaciones del menú probadas y verificadas.
+Asimismo, se elaboró la documentación técnica y el manual de usuario, consolidando el desarrollo como un sistema completo que integra buenas prácticas de programación, modularidad y claridad en el diseño.
+
+# Reflexión
 ## ¿Qué aprendí con este proyecto?
 
 Con este proyecto aprendí la importancia de la modularidad en la programación. Dividir el código en funciones independientes no solo facilita la lectura y el mantenimiento, sino que también mejora la organización y la posibilidad de reutilizar partes del código en el futuro. Aunque en este caso algunas funciones, como el cálculo del promedio, se utilizaron una sola vez, aplicar este principio desde el inicio me ayudó a estructurar el sistema de forma más clara y profesional. Además, comprendí mejor cómo aplicar estructuras de datos como listas, pilas y colas en un contexto real y funcional.
@@ -71,6 +82,7 @@ Lo más desafiante fue implementar el historial de cambios y la cola de revisió
 ## ¿Qué mejoraría si tuviera más tiempo?
 
 Si tuviera más tiempo, mejoraría el formato general del código y del menú. Puliría los textos, títulos y mensajes que se muestran al usuario para hacerlos más claros y consistentes. También intentaría prever más escenarios y posibles errores que podrían ocurrir con ciertos tipos de entrada del usuario. Finalmente, me gustaría experimentar con una versión mejorada del sistema que incluya una interfaz gráfica simple, para hacerlo más visual y amigable sin perder la simplicidad que lo caracteriza.
+
 
 
 
