@@ -206,6 +206,7 @@ def cola_revision():
 
         if opcion == "FIN":
             print("Se finaliza la revision!!!")
+            print()
             break
         
         elif opcion == "AGREGAR":
