@@ -59,6 +59,22 @@ Para el avance 3 se llevó del pseudocodigo al codigo, por medio del lenguaje py
 
 En este avance se implementaron nuevamente 3 opciones, siendo eliminación segura de registros con confirmación del usuario, y dos métodos de ordenamiento (por nota y por nombre) utilizando el algoritmo built-in sorted con funciones lambda como key. Con lo cual se incrementa el total de operaciones disponibles para los usuarios a 9 
 
+### Reflexión
+## ¿Qué aprendí con este proyecto?
+
+Con este proyecto aprendí la importancia de la modularidad en la programación. Dividir el código en funciones independientes no solo facilita la lectura y el mantenimiento, sino que también mejora la organización y la posibilidad de reutilizar partes del código en el futuro. Aunque en este caso algunas funciones, como el cálculo del promedio, se utilizaron una sola vez, aplicar este principio desde el inicio me ayudó a estructurar el sistema de forma más clara y profesional. Además, comprendí mejor cómo aplicar estructuras de datos como listas, pilas y colas en un contexto real y funcional.
+
+## ¿Qué fue lo más desafiante de resolver?
+
+Lo más desafiante fue implementar el historial de cambios y la cola de revisión. Estas funciones requerían comprender bien el comportamiento de las estructuras LIFO (pila) y FIFO (cola), lo que implicó investigar y practicar hasta encontrar una forma eficiente de aplicarlas. Tuve que apoyarme en videos de YouTube y foros como Reddit para entender cómo simular estos comportamientos y lograr que funcionaran correctamente dentro del flujo del programa además de las presentaciones y actividades semanales que dentro de la clase se veían, sin embargo el historial si se me complicó al inicio
+
+## ¿Qué mejoraría si tuviera más tiempo?
+
+Si tuviera más tiempo, mejoraría el formato general del código y del menú. Puliría los textos, títulos y mensajes que se muestran al usuario para hacerlos más claros y consistentes. También intentaría prever más escenarios y posibles errores que podrían ocurrir con ciertos tipos de entrada del usuario. Finalmente, me gustaría experimentar con una versión mejorada del sistema que incluya una interfaz gráfica simple, para hacerlo más visual y amigable sin perder la simplicidad que lo caracteriza.
+
+
+
+
 
 
 
